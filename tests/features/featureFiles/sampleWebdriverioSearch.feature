@@ -1,7 +1,9 @@
 Feature: Validate the Search functionality of webdriverIO Site
 
-  @Scenario1
+  @Scenario
   Scenario: As a user, I should get relevant Search Results on searching for valid keywords from the webdriverIO Homepage's Search Bar
 
-    Given I open "http://automationpractice.com/index.php" the website
+    Given I open "http://qatutorials.net:3000/" the website
+    And I login with valid credentials
+
     
